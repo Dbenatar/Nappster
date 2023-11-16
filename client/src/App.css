@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Macondo", cursive;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.FeedNapSleep {
+  background-color: rgb(235, 98, 98);
+  display: flex;
+  margin: 30px;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+.column1,
+.column2,
+.column3 {
+  padding: 20px;
+  margin: 30px;
+  background-color: bisque;
+}
+
+.quotes {
+  background-color: rgb(235, 98, 98);
+  padding: 20px;
+  margin: 30px;
+}
+
+.quotes,
+h3 {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.quotes,
+p {
+  display: flex;
+}
+
+footer {
+  background-color: red;
+}

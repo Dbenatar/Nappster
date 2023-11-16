@@ -1,0 +1,53 @@
+header {
+  color: #90f6d7;
+  background-color: #41506b;
+}
+
+.mainlogo {
+  float: left;
+  padding: 10px 0;
+  width: 150px;
+  height: 150px;
+}
+
+h1 .header {
+  color: #90f6d7;
+  text-decoration: underline;
+}
+
+h1 .header:hover {
+  color: #90f6d7;
+  text-decoration: none;
+}
+
+body {
+  background-color: #41506b;
+}
+
+.FeedNapSleep {
+  background-color: #90f6d7;
+  display: flex;
+  margin: 10% 0;
+
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.column1,
+.column2,
+.column3 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  margin: 15px;
+  background-color: #35bcbf;
+  width: 50px;
+  max-width: 300px;
+  min-width: 100px;
+  border: 2px solid #90f6d7;
+  border-radius: 10px;
+}
